@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F9F5EB;
+}
+
+h3 {
+  font-size: 1.5rem
+}
+
+.btn-primary {
+  background-color: #edb026;
+  border-color: #edb026;
+  font-size: 1rem;
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.btn-primary:hover {
+  background-color: #211f1b;
+  border-color: #211f1b;
+  opacity: 0.9;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #edb026;
+  border-color: #edb026;
+  box-shadow: 0 0 0 0.25rem #edb026;
+}
+
+.card-body {
+  text-align: center;
+}
